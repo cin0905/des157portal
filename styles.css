@@ -3,8 +3,39 @@ body{
     padding: 30px;
 }
 
+body {
+    animation: 20s ease-in-out infinite bgColor;
+  }
+  
+  @keyframes bgColor {
+    0% {
+      background-color: #ede58c;
+    }
+    20% {
+      background-color: #ed8ccd;
+    }
+    40% {
+      background-color: #ed998c;
+    }
+    60% {
+      background-color: #918ced;
+    }
+    80% {
+      background-color: #cbed8c;
+    }
+    100% {
+      background-color: #8cede0;
+    }
+  }
+
 h1, div h2 {
     font-family: 'Paytone One', sans-serif;
+}
+
+#banner{
+    width:1100px;
+    height:250px;
+    background-color:#e2ebc3;
 }
 
 header{
@@ -17,6 +48,11 @@ header h1{
         color: #050608;
         font-size:3.5em;
         text-shadow: 4px 5px #a7abeb;
+        transition: font-size 1s ease;
+}
+
+h1:hover{
+    font-size:65px;
 }
 
 header h2{
