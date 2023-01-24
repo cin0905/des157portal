@@ -1,6 +1,8 @@
 body{
     background-color:#fcf8ed;
     padding: 30px;
+    width:1200px;
+    height:900px;
 }
 
 body {
@@ -35,11 +37,12 @@ h1, div h2 {
 #banner{
     width:1100px;
     height:250px;
-    background-color:#e2ebc3;
+    display:flex;
+    background-image: url(images/bear.jpg);
+    background-size: cover;
 }
 
 header{
-    text-align: center;
     color:#050608;
 }
 
