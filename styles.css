@@ -1,0 +1,114 @@
+body{
+    background-color:#fcf8ed;
+    padding: 30px;
+}
+
+h1, div h2 {
+    font-family: 'Paytone One', sans-serif;
+}
+
+header{
+    text-align: center;
+    color:#050608;
+}
+
+
+header h1{
+        color: #050608;
+        font-size:3.5em;
+        text-shadow: 4px 5px #a7abeb;
+}
+
+header h2{
+    font-size: 2em;
+}
+
+nav ul li, h2 {
+    font-family: 'Dongle', sans-serif;
+    font-size: larger;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#934d94;
+}
+
+
+nav ul li{
+    list-style: none;
+
+}
+
+div h2{
+    color:#3d0c25;
+}
+
+div{
+    display:inline-block;
+    padding:20px;
+    margin:auto;
+    border-radius: 2em;
+    border: 1.5px solid #050608;
+    margin-right: 40px;
+    width:170px;
+    height:350px;
+    align-items: center;
+    max-width:1000px;
+}
+
+.one{
+    background-color: #f4c6f5;
+}
+
+.two{
+    background-color: #a7ebbb;
+}
+
+.three{
+    background-color: #a7abeb;
+}
+.three nav ul li a{
+    color:#262845;
+}
+
+.three h2{
+    color:#111624;
+}
+
+.two nav ul li a{
+    color:#366340;
+}
+
+
+.two h2{
+    color: #1b291e;
+}
+
+.three:hover{
+    background-color: #92e8df;
+}
+
+.two:hover{
+    background-color: #e892a1;
+}
+
+.one:hover{
+    background-color: #e8dd92;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    padding:20px;
+}
+
+
+footer{
+    padding:60px;
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+}
+
+
+
