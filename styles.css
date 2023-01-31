@@ -107,23 +107,26 @@ div{
     margin:auto;
     border-radius: 2em;
     border: 1.5px solid #050608;
-    margin-right: 40px;
-    width:300px;
-    height:350px;
     align-items: center;
     max-width:1000px;
 }
 
 .one{
     background-color: #f4c6f5;
+    width:300px;
+    height:350px;
 }
 
 .two{
     background-color: #a7ebbb;
+    width:300px;
+    height:350px;
 }
 
 .three{
     background-color: #a7abeb;
+    width:300px;
+    height:350px;
 }
 .three nav ul li a{
     color:#262845;
