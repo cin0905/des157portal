@@ -20,14 +20,33 @@
 
     </main>
 
-    <script>
-       
-       var rightC = prompt('what color am i thinking of?','');
-       var color = ['red','blue','yellow','green','orange','black'];
 
-        if(color == red){
-            let color = document.getElementById("header").style.backgroundColor;
+
+    <script>
+
+        function colorChange(){
+            var colorC = prompt('enter color', '');
+            if(colorC === ''){
+                return;
+            }
+            let color = document.getElementById('colorC').value;
+            document.body.style.backgroundColor = color;
         }
+
+/*function change(test) {
+  var colorC = prompt('enter color', '');
+  var color = ['red','blue','yellow','green','orange','black'];
+  if (colorC === red) {
+    return;
+  }
+  document.body.style.backgroundColor = colorC;
+ 
+}
+
+change(test);
+    
+/* i wanted to try out the experiment where the user inputs a color into the prompt, then the body background changes into that color. i can't really figure it out at the moment*/
+
 
 
        /*function randomInt(min,max){

@@ -96,6 +96,11 @@ div h2{
     color:#3d0c25;
 }
 
+main{
+    margin:auto;
+
+}
+
 div{
     display:inline-block;
     padding:20px;
