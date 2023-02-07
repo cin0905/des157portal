@@ -1,0 +1,84 @@
+body{
+    background: #fca7eb;
+    width:1200px;
+    height: 750px;
+    margin:auto;
+
+}
+
+div{
+    background-image: url('images/love.png');
+    background-size: 150%;
+   background-position: 20%;
+}
+
+
+
+form{
+    margin-left: 750px;
+    padding:10px;
+    display: inline-block;
+}
+
+label{
+    display:inline-block;
+    width: 100px;
+    text-align: right;
+    padding:10px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+input:focus{
+    background-color:#f7c3f6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="submit"]:focus{
+    background-color:#c43592;
+}
+
+
+
+fieldset input, fieldset label{
+    display: inline;
+}
+
+fieldset label{
+    margin-bottom:20px;
+}
+
+h1, p, label, footer{
+    font-family: 'Itim', cursive;
+    color:#751254;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    font-family: 'Itim', cursive;
+    background-color:#facaea ;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    color:#751254;
+    margin:auto;
+    align-items: center;
+}
+
+header{
+    padding:10px;
+    margin:auto;
+}
+
+footer{
+    padding-top:70px;
+    padding-bottom: 20px;
+    margin:auto;
+    text-align: center;
+}
