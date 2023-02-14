@@ -1,5 +1,5 @@
 body{
-    background: #fca7eb;
+    background:#fcd9f9;
     width:1200px;
     height: 750px;
     margin:auto;
@@ -18,7 +18,7 @@ div{
 form{
     margin-left: 750px;
     padding:10px;
-    display: inline-block;
+    display: block;
 }
 
 label{
@@ -52,8 +52,21 @@ fieldset label{
 }
 
 h1, p, label, footer{
-    font-family: 'Itim', cursive;
+    font-family: "chill-script", sans-serif;
+font-weight: 400;
+font-style: normal;
     color:#751254;
+}
+
+article{
+    font-family: "brevia", sans-serif;
+font-weight: 500;
+font-style: normal;
+color:#751254;
+background-color: #f2b3d6 ;
+border:#751254 2px solid;
+border-radius: 3px;
+padding:10px;
 }
 
 h1{
@@ -62,12 +75,14 @@ h1{
 }
 
 input[type="submit"]{
-    font-family: 'Itim', cursive;
-    background-color:#facaea ;
+    font-family: "chill-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+    background-color:#db4d83;
     border: none;
     padding: 10px;
     border-radius: 3px;
-    color:#751254;
+    color:#fcd9f9;
     margin:auto;
     align-items: center;
 }
