@@ -9,7 +9,7 @@ body{
 div{
     background-image: url('images/love.png');
     background-size: 150%;
-   background-position: 20%;
+   background-position: 15% 50%;
    transition: 2s ease;
 }
 
@@ -41,6 +41,10 @@ input[type="submit"]:focus{
     background-color:#c43592;
 }
 
+input[type="submit"]{
+    display:flex;
+    margin:auto;
+}
 
 
 fieldset input, fieldset label{
@@ -59,7 +63,7 @@ font-style: normal;
 }
 
 article{
-    font-family: "brevia", sans-serif;
+font-family: "brevia", sans-serif;
 font-weight: 500;
 font-style: normal;
 color:#751254;
@@ -98,3 +102,4 @@ footer{
     margin:auto;
     text-align: center;
 }
+
