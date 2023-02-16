@@ -1,6 +1,6 @@
-h1, h2, p, a, date{
+h1, h2, h3, p, a, date, figcaption{
     font-family: 'Unbounded', cursive;
-    line-height: 1.3em;
+    line-height: 1.6em;
 }
 
 header{
@@ -44,5 +44,17 @@ footer{
     text-align: center;
     font-family: 'Unbounded', cursive;
 }
+
+img{
+    padding:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
 
 
