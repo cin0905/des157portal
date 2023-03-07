@@ -1,0 +1,39 @@
+
+
+h1{
+font-family: "chaloops", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+p{
+    font-family: "chaloops", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+body {
+    font-family: Arial;
+    color: #333;
+    padding: 50px;
+    line-height: 1.5em;
+}
+
+button { 
+    padding: 10px;
+}
+
+div {
+    padding: 20px;
+}
+
+#gamecontrol, #score {
+    background-color: aliceblue;
+}
+
+#game {
+    background-color:#eaeaea;
+}
+#actions {
+    background-color: silver;
+}
