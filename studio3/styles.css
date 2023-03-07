@@ -1,15 +1,30 @@
 
-
 h1{
 font-family: "chaloops", sans-serif;
 font-weight: 700;
 font-style: normal;
+text-align: center;
+font-size: 100px;
+color: #083825;
 }
 
-p{
+p, footer{
     font-family: "chaloops", sans-serif;
 font-weight: 400;
 font-style: normal;
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+    margin:auto;
+}
+
+p{
+    background: rgba(3, 23, 15, .5);
+  padding:20px;
+  border-radius: 20px;
+  color:white;
 }
 
 body {
@@ -17,23 +32,41 @@ body {
     color: #333;
     padding: 50px;
     line-height: 1.5em;
+    margin:auto;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 button { 
-    padding: 10px;
+    padding: 20px;
+    font-family: "chaloops", sans-serif;
+font-weight: 400;
+font-style: normal;
+border-radius: 20px;
 }
 
 div {
     padding: 20px;
+
 }
 
 #gamecontrol, #score {
-    background-color: aliceblue;
+    background-color: none;
 }
 
 #game {
-    background-color:#eaeaea;
+    background-color:none;
 }
 #actions {
-    background-color: silver;
+    background-color: none;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    border-radius: 20px;
 }
