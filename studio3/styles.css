@@ -8,11 +8,17 @@ font-size: 100px;
 color: #083825;
 }
 
-p, footer{
+#win{
+    text-align: center;
+}
+
+p, footer, a,h2, h3{
     font-family: "chaloops", sans-serif;
 font-weight: 400;
 font-style: normal;
 }
+
+
 
 footer{
     padding: 40px;
@@ -25,6 +31,7 @@ p{
   padding:20px;
   border-radius: 20px;
   color:white;
+  text-align: center;
 }
 
 body {
@@ -45,22 +52,12 @@ button {
 font-weight: 400;
 font-style: normal;
 border-radius: 20px;
+margin: auto;
 }
 
 div {
     padding: 20px;
 
-}
-
-#gamecontrol, #score {
-    background-color: none;
-}
-
-#game {
-    background-color:none;
-}
-#actions {
-    background-color: none;
 }
 
 img{
@@ -70,3 +67,9 @@ img{
     display:flex;
     border-radius: 20px;
 }
+
+  #gamecontrol, #roll{
+      display:grid;
+      align-items: center;
+      justify-content: center;
+  }

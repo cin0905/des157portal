@@ -1,12 +1,9 @@
 (function(){
 	
-	"use strict";
-	/* 
-	This gets the player: gameData.players[gameData.index]
-	This gets the first die: gameData.dice[gameData.roll1-1]
-	This gets the second die: gameData.dice[gameData.roll2-1]
-	This gets the score of the current player: gameData.score[gameData.index]
-	*/
+	"use strict"; 
+	console.log('reading js');
+
+	//game data
 	
 	const startGame = document.getElementById('startgame');
 	const gameControl = document.getElementById('gamecontrol');
@@ -55,7 +52,7 @@
 		actionArea.innerHTML = '';
 		gameData.roll1 = Math.floor(Math.random() * 6) + 1; //using ceil could result in a zero
 		gameData.roll2 = Math.floor(Math.random() * 6) + 1;
-		game.innerHTML = `<p>Roll the dice for the ${gameData.players[gameData.index]}</p>`;
+		game.innerHTML = `<p>Roll the dice for ${gameData.players[gameData.index]}</p>`;
 		game.innerHTML += `<img src="${gameData.dice[gameData.roll1-1]}"> 
 							<img src="${gameData.dice[gameData.roll2-1]}">`;
 		gameData.rollSum = gameData.roll1 + gameData.roll2;
@@ -100,7 +97,7 @@
 
 	function checkWinningCondition() {
 		if (gameData.score[gameData.index] > gameData.gameEnd) {
-			score.innerHTML = `<h2>${gameData.players[gameData.index]} 
+			score.innerHTML = `<h2 id="win">${gameData.players[gameData.index]} 
 			wins with ${gameData.score[gameData.index]} points!</h2>`;
 
 			actionArea.innerHTML = '';
@@ -115,5 +112,6 @@
 		score.innerHTML = `<p>The score is currently <strong>${gameData.players[0]}
 		${gameData.score[0]}</strong> and <strong>${gameData.players[1]} 
 		${gameData.score[1]}</strong></p>`;
-	}
+	} 
+
 }());
