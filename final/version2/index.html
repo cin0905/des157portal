@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script> 
+    <title>Final Version 1</title>
+</head>
+<body>
+    <header><h1>Valentine's Date Generator</h1></header>
+    <main>
+        <div>
+        <form id="myform">
+          <label for="animal"> an animal </label><input type="text" id="animal"> <br>
+          <label for="snack"> snack </label><input type="text" id="snack"> <br>
+          <label for="food"> cuisine </label><input type="text" id="food"> <br>
+          <label for="music"> music genre </label><input type="text" id="music"> <br>
+          <label for="hobby"> hobby </label><input type="text" id="hobby"> <br>
+          <label for="love"> your date </label><input type="text" id="love"> <br>
+          <a href="#" class="open"><input type="submit" value="DATE TIME"></a>
+        </form>
+    </div>
+    </main>
+
+    <section id="overlay" class="showing">
+        <article>
+            <h2>User Testing</h2>
+            <p>Hi! Thank you for taking the time to user test my final project! Here are instructions on how you should navigate this page:
+                <br>
+                1. Fill in the every box to the best of your ability.
+                <br>
+                2. Click the button that says "DATE TIME". <br>
+                3. Read through your final generated valentines date mad libs.
+            </p>
+            <button class="corner close">&otimes;</button>
+        </article>
+    </section>
+
+    <section id="overlay" class="hidden">
+        <article>
+            <article id="madlib"></article>
+            <button class="corner close">&otimes;</button>
+        </article>
+    </section>
+
+
+    <footer> Page by Cindy Tan</footer>
+    
+</body>
+</html>
