@@ -1,0 +1,37 @@
+h1, h2, h3, p, a, date, figcaption{
+    font-family: 'Unbounded', cursive;
+    line-height: 1.6em;
+}
+
+header{
+    padding:20px;
+}
+
+p{
+    width: 500px;
+}
+
+article h3{
+    text-align: center;
+}
+
+
+body{
+    margin:auto;
+    padding:30px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+ }
+
+ article{
+     border: 2px solid black;
+     border-radius: 5px;
+     padding:20px;
+     width: 500px;
+     display:block;
+     margin:auto;
+     background-color:rgb(193, 191, 245,0.5);
+ }
+
+
