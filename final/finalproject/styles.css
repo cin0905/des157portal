@@ -1,0 +1,149 @@
+body{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    margin:auto;
+    background-color:#ffedfd;
+}
+
+p, label, footer{
+    font-family: "macho", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#132259;
+}
+
+h1{
+    font-family: "macho", sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #132259;
+    font-size: 50px;
+    padding-left:30px;
+}
+
+form{
+    margin-left: 750px;
+    padding:10px;
+    display: block;
+}
+
+footer{
+    padding-top:70px;
+    padding-bottom: 20px;
+    margin:auto;
+    text-align: center;
+}
+
+label{
+    display:inline-block;
+    width: 100px;
+    text-align: right;
+    padding:10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding:7px;
+    border:#132259 2px solid;
+}
+
+input:focus{
+    background-color:#f7c3f6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="submit"]:focus{
+    background-color:#c43592;
+}
+
+input[type="submit"]{
+    display:flex;
+    margin:auto;
+}
+
+
+fieldset input, fieldset label{
+    display: inline;
+}
+
+fieldset label{
+    margin-bottom:20px;
+}
+
+input[type="submit"]{
+    font-family: "macho", sans-serif;
+font-weight: 700;
+font-style: normal;
+    background-color:#6b2464;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    margin:auto;
+    align-items: center;
+}
+
+
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    .showing {
+        visibility:visible;
+        opacity: 1;
+    }
+    
+    #overlay{
+        position: absolute;
+        background-color: rgba(0,0,0,0.5);
+        top:0;
+        left:0;
+        width:100vw;
+        height:100vh;
+        transition-property: opacity, visibility;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+    }
+
+    #overlay article{
+        box-sizing: border-box;
+        padding: 60px;
+        margin:auto;
+        width: 50vw;
+        height:60vh;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        font-family: "macho", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        font-style: normal;
+        color:#132259;
+        background-color: #ffedfd;
+        border:#132259 2px solid;
+        border-radius: 3px;
+        overflow-y:scroll;
+    }
+
+    .corner{
+        font-size:36px;
+        margin:0;
+        padding:0;
+        border:none;
+        background-color: transparent;
+        color:#132259;
+        position:absolute;
+        top:10px;
+        right:10px;
+        cursor:pointer;
+        outline:none;
+    }
